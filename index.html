@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        //javacript code
+        var hello = 'dinga';
+        console.log(hello)
+        console.log(hello)
+        console.log(hello)
+        console.log(hello)
+        console.log(hello)
+
+        // variable
+        var message = 'dinga'
+
+        console.log(message);
+
+        //number
+        var age = 24
+        console.log(age);
+        //boolean
+        var havegirlfriend = false
+        console.log(havegirlfriend);
+
+        var haveboyfriend = true;
+        console.log(haveboyfriend);
+
+
+        //undefined
+        var willyoumarry;
+        console.log(willyoumarry);
+        //null
+        var have = null;
+        console.log(have);
+
+        // concatinate
+        var my = "mahesh 'c'"
+        var hi = `my name 
+        ${my}`
+        console.log('my name is ' + my)
+        console.log('mahi', hi);
+
+
+
+        ///ternary oprator
+
+        // var age = 24
+        // age >= 18 ? console.log("eligible for voting") :
+        //     console.log("eligible for not voting");
+
+        //
+        console.log('----------------------------------------------------------------------------------------');
+
+
+        var per = 90
+        if (per < 0 || per > 100 || typeof(per) !== "number" || isNaN(per) === true) {
+            console.log('invalid')
+
+        } else if ((per >= 70 && per <= 100)) {
+            console.log('FCD')
+
+        } else if (per >= 60 && per < 70) {
+            console.log('first class')
+
+        } else if (per >= 35 && per < 60) {
+            console.log('pass')
+
+        } else {
+            console.log('fail');
+        }
+
+        console.log('--------------------------------------------------------------------------------');
+
+        var result = (per < 0 || per > 100 || typeof(per) !== "number" || isNaN(per) === true) ?
+            console.log('invalid') : (per >= 70 && per <= 100) ? "FCD" :
+            (per >= 60 && per < 70) ? 'firstclass' :
+            (per >= 35 && per < 60) ? 'pass' : 'fail'
+        console.log("result", result);
+    </script>
+</head>
+
+<body>
+    <button>
+        click
+    </button>
+
+    <h1>hi</h1>
+    <p>welcome</p>
+    <h2>hello</h2>
+</body>
+
+</html>
