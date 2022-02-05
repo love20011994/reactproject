@@ -32,3 +32,9 @@ h5{
 label{
   font-weight: bold;
 }
+
+.App{
+  background-color: blue;
+  height: 100vh;
+  width: 50%;
+}
