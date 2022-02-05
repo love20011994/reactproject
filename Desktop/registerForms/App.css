@@ -1,0 +1,77 @@
+
+.login-label{
+  margin-right: 300px;
+}
+.login-input{
+  height: 45px;
+}
+.regi{
+  background-color: rgb(51, 42, 179);
+  padding-bottom: 30px;
+  
+  
+}
+.fsize{
+  font-size: xx-large;
+}
+.main_divtag{
+  background-color: rgb(27, 105, 158);
+  width: 600px;
+  height: 700px;
+  margin-left: 350px;
+  margin-top: 100px;
+  padding-left: 100px;
+  /* padding: 25px; */
+  padding-top: 25px;
+}
+
+h2{
+  color: white;
+  padding-bottom: 25px;
+ margin-left: 28px;
+}
+
+.box{
+  font-size: 20px;
+  background-color: white;
+  width: 400px;
+  padding: 50px;
+  height: 400px;
+  padding-bottom: 25px;
+  border-radius: 5px;
+ 
+  
+}
+
+.box2{
+  font-size: 20px;
+  background-color: white;
+  width: 400px;
+  padding: 30px;
+  /* height: 400px; */
+  border-radius: 5px;
+  margin-left: 10px;
+  
+  
+}
+
+.container input{
+  width: 300px;
+  padding: 12px;
+  background-color: rgb(248, 245, 245);  
+
+}
+
+.btn input{
+  width: 280px;
+  background-color: green;
+  font-size: 20px;
+  color: white;
+  border-radius: 5px;
+  
+}
+
+
+.btn input:hover{
+background-color: darkgreen;
+}
